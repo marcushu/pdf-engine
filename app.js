@@ -3,6 +3,13 @@ const { PdfObj } = require('./js/pdfObj');
 
 const app = express();
 
+//
+
+app.get('/', (req, res) => {
+  res.send("post with instruction array to /pdf")
+})
+
+
 // Create and return a pdf document from an array
 // of instruction objects available through the 
 // request body.
