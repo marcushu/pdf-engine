@@ -1,0 +1,154 @@
+[
+    {
+        "type" : "SETMARGIN",
+        "margin" : {
+            "top" : 75,
+            "bottom" : 75,
+            "left" : 50,
+            "right" : 50
+        }
+    },
+    {
+        "type" : "SETXPOSITION",
+        "xPosition" : 400
+    },
+    {
+        "type" : "TEXT",
+        "fontSize" : 14,
+        "text" : "John Cicero"            
+    },
+    {
+        "type" : "TEXT",
+        "text" : "123 Fake Street"            
+    },
+    {
+        "type" : "TEXT",
+        "text" : "Rome, CA 93212"            
+    },
+    {
+        "type" : "TEXT",
+        "text" : "lipsum.com",
+        "textColor" : "blue",
+        "settings" : {
+                "underline" : "true",
+                "link" : "https://www.lipsum.com/"
+            }     
+    },
+    {
+        "type" : "LINEBREAK"
+    },
+    {
+        "type" : "LINEBREAK"
+    },
+    {
+        "type" : "SETXPOSITION",
+        "xPosition" : 50
+    },
+    {
+        "type" : "TEXT",
+        "fontfamily" : "Helvetica-Bold",
+        "fontSize" : 20,
+        "text" : "LOREM IPSUM",
+        "settings" : {
+            "align" : "center"
+        }          
+    },
+    {
+        "type" : "TEXT",
+        "fontfamily" : "Helvetica",
+        "fontSize" : 10,
+        "text" : "dolor sit amet...",
+        "settings" : {
+            "align" : "center",
+            "oblique" : "true"
+        }
+    },
+    {
+        "type" : "LINEBREAK"
+    },
+    {
+        "type" : "TEXT",
+        "fontfamily" : "Times-Roman",
+        "fontSize" : 14,
+        "text" : "      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam accumsan sodales erat, a congue nisl. Nullam ut condimentum dolor. Donec placerat nisl vel fringilla malesuada. Suspendisse vulputate urna nec elit maximus rutrum. Quisque eget cursus odio. Pellentesque quis leo et libero elementum volutpat a ac lectus. Proin nec accumsan nunc. Maecenas placerat odio id orci semper commodo. Vestibulum feugiat turpis vitae ipsum ultricies, et auctor dolor tincidunt. Cras euismod ac leo vel finibus. Suspendisse venenatis fermentum orci, quis tristique leo venenatis eget. Nulla est leo, varius non elementum vel, imperdiet sed ipsum."            
+    },
+    {
+        "type" : "LINEBREAK"
+    },
+    {
+        "type" : "SETXPOSITION",
+        "xPosition" : 250
+    },
+    {
+        "type" : "LIST",
+        "fontSize" : 12,
+        "textColor" : "purple",
+        "fontfamily" : "Helvetica-Bold",
+        "listdata" : [ "Lucius Cassius" ]
+    },
+    {
+        "type" : "LIST",
+        "fontSize" : 12,
+        "fontfamily" : "Helvetica-Bold",
+        "listdata" : [
+            "Marcus Procius Cato", 
+            "Atticus", "Marcus Antonius", "Gaius Antonius"
+        ]
+    },
+    {
+        "type" : "LINEBREAK"
+    },
+    {
+        "type" : "SETXPOSITION",
+        "xPosition" : 50
+    },
+    {
+        "type" : "TEXT",
+        "fontfamily" : "Times-Roman",
+        "fontSize" : 14,
+        "textColor" : "red",
+        "text" : "Suspendisse aliquet nunc quis justo varius, luctus maximus ante pellentesque...",
+        "settings" : {
+            "underline" : "true",
+            "oblique" : "true"
+        }
+    },
+    {
+        "type" : "LINEBREAK"
+    },
+    {
+        "type" : "TEXT",
+        "textColor" : "red",
+        "text" : "Suspendisse vel sollicitudin tortor...",
+        "settings" : {
+            "oblique" : "true"
+        }
+    },
+    {
+        "type" : "LINEBREAK"
+    },
+    {
+        "type" : "TEXT",
+        "textColor" : "red",
+        "text" : "Ut maximus auctor ante, sed ullamcorper erat sagittis quis...",
+        "settings" : {
+            "oblique" : "true"
+        }
+    },
+    {
+        "type" : "LINEBREAK"
+    },
+    {
+        "type" : "LINEBREAK"
+    },
+    {
+        "type" : "SETXPOSITION",
+        "xPosition" : 400
+    },
+
+    {
+        "type" : "TEXT",
+        "fontfamily" : "Times-Bold",
+        "text" : "c. 45 B.C. Cicero"
+    }
+]

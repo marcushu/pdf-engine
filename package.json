@@ -1,0 +1,20 @@
+{
+  "name": "nodepdfgen",
+  "version": "1.0.0",
+  "description": "generate pdfs and serve",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Marcus Hurn",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "pdfkit": "^0.11.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
