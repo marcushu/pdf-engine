@@ -1,7 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 const { PdfObj } = require('./js/pdfObj');
 
+
 const app = express();
+app.use(cors());
 
 //
 
